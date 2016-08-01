@@ -10,9 +10,3 @@ For example:
 input: "listen", ["enlists", "google", "inlets", "banana"]
 output: ["inlets"]
 ```
-
----
-
-```swift
-func anagram(word: String, candidates: [String]) -> [String]
-```

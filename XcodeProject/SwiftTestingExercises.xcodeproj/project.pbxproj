@@ -6,9 +6,56 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F6EC96F1D5005C90051AA07 /* WordsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC96E1D5005C90051AA07 /* WordsCount.swift */; };
+		3F6EC9711D5005FF0051AA07 /* WordsCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9701D5005FF0051AA07 /* WordsCountTests.swift */; };
+		3F6EC9731D5006250051AA07 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9721D5006250051AA07 /* Anagram.swift */; };
+		3F6EC9751D50064C0051AA07 /* AnagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9741D50064C0051AA07 /* AnagramTests.swift */; };
+		3F6EC9771D5006840051AA07 /* Nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9761D5006840051AA07 /* Nucleotide.swift */; };
+		3F6EC9791D5006BE0051AA07 /* DNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9781D5006BE0051AA07 /* DNA.swift */; };
+		3F6EC97B1D5006D70051AA07 /* RNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC97A1D5006D70051AA07 /* RNA.swift */; };
+		3F6EC97D1D5006F10051AA07 /* RNATranscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC97C1D5006F10051AA07 /* RNATranscription.swift */; };
+		3F6EC97F1D5007220051AA07 /* RNATranscriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC97E1D5007220051AA07 /* RNATranscriptionTests.swift */; };
+		3F6EC9811D5007490051AA07 /* MarsYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9801D5007490051AA07 /* MarsYears.swift */; };
+		3F6EC9831D50077E0051AA07 /* MarsYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9821D50077E0051AA07 /* MarsYearsTests.swift */; };
+		3F6EC9851D5007960051AA07 /* SpaceAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9841D5007960051AA07 /* SpaceAge.swift */; };
+		3F6EC9871D5007C90051AA07 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9861D5007C90051AA07 /* Planet.swift */; };
+		3F6EC9891D5008820051AA07 /* SpaceAgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC9881D5008820051AA07 /* SpaceAgeTests.swift */; };
+		3FB122D01D50042F004DD9E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3FB122C51D50042F004DD9E1 /* README.md */; };
+		3FB122D11D50042F004DD9E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3FB122C71D50042F004DD9E1 /* README.md */; };
+		3FB122D21D50042F004DD9E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3FB122C91D50042F004DD9E1 /* README.md */; };
+		3FB122D31D50042F004DD9E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3FB122CB1D50042F004DD9E1 /* README.md */; };
+		3FB122D41D50042F004DD9E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3FB122CD1D50042F004DD9E1 /* README.md */; };
+		3FB122D51D50042F004DD9E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3FB122CF1D50042F004DD9E1 /* README.md */; };
+		3FB122D71D500455004DD9E1 /* LeapYearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB122D61D500455004DD9E1 /* LeapYearTests.swift */; };
+		3FB122D91D50047A004DD9E1 /* LeapYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB122D81D50047A004DD9E1 /* LeapYear.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		3F6EC96E1D5005C90051AA07 /* WordsCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsCount.swift; sourceTree = "<group>"; };
+		3F6EC9701D5005FF0051AA07 /* WordsCountTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsCountTests.swift; sourceTree = "<group>"; };
+		3F6EC9721D5006250051AA07 /* Anagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
+		3F6EC9741D50064C0051AA07 /* AnagramTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramTests.swift; sourceTree = "<group>"; };
+		3F6EC9761D5006840051AA07 /* Nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nucleotide.swift; sourceTree = "<group>"; };
+		3F6EC9781D5006BE0051AA07 /* DNA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNA.swift; sourceTree = "<group>"; };
+		3F6EC97A1D5006D70051AA07 /* RNA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNA.swift; sourceTree = "<group>"; };
+		3F6EC97C1D5006F10051AA07 /* RNATranscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNATranscription.swift; sourceTree = "<group>"; };
+		3F6EC97E1D5007220051AA07 /* RNATranscriptionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNATranscriptionTests.swift; sourceTree = "<group>"; };
+		3F6EC9801D5007490051AA07 /* MarsYears.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsYears.swift; sourceTree = "<group>"; };
+		3F6EC9821D50077E0051AA07 /* MarsYearsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsYearsTests.swift; sourceTree = "<group>"; };
+		3F6EC9841D5007960051AA07 /* SpaceAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAge.swift; sourceTree = "<group>"; };
+		3F6EC9861D5007C90051AA07 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		3F6EC9881D5008820051AA07 /* SpaceAgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAgeTests.swift; sourceTree = "<group>"; };
 		3F75F9061D50038F008EEF60 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F75F90B1D50038F008EEF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB122C51D50042F004DD9E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB122C71D50042F004DD9E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB122C91D50042F004DD9E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB122CB1D50042F004DD9E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB122CD1D50042F004DD9E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB122CF1D50042F004DD9E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB122D61D500455004DD9E1 /* LeapYearTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeapYearTests.swift; sourceTree = "<group>"; };
+		3FB122D81D50047A004DD9E1 /* LeapYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeapYear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +80,12 @@
 		3F75F9081D50038F008EEF60 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				3FB122C41D50042F004DD9E1 /* 01-leap-year */,
+				3FB122C61D50042F004DD9E1 /* 02-word-count */,
+				3FB122C81D50042F004DD9E1 /* 03-anagram */,
+				3FB122CA1D50042F004DD9E1 /* 04-rna-transcription */,
+				3FB122CC1D50042F004DD9E1 /* 05-mars-age */,
+				3FB122CE1D50042F004DD9E1 /* 06-space-age */,
 				3F75F90B1D50038F008EEF60 /* Info.plist */,
 			);
 			path = Tests;
@@ -44,6 +97,76 @@
 				3F75F9081D50038F008EEF60 /* Tests */,
 				3F75F9071D50038F008EEF60 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		3FB122C41D50042F004DD9E1 /* 01-leap-year */ = {
+			isa = PBXGroup;
+			children = (
+				3FB122C51D50042F004DD9E1 /* README.md */,
+				3FB122D81D50047A004DD9E1 /* LeapYear.swift */,
+				3FB122D61D500455004DD9E1 /* LeapYearTests.swift */,
+			);
+			name = "01-leap-year";
+			path = "../../01-leap-year";
+			sourceTree = "<group>";
+		};
+		3FB122C61D50042F004DD9E1 /* 02-word-count */ = {
+			isa = PBXGroup;
+			children = (
+				3FB122C71D50042F004DD9E1 /* README.md */,
+				3F6EC96E1D5005C90051AA07 /* WordsCount.swift */,
+				3F6EC9701D5005FF0051AA07 /* WordsCountTests.swift */,
+			);
+			name = "02-word-count";
+			path = "../../02-word-count";
+			sourceTree = "<group>";
+		};
+		3FB122C81D50042F004DD9E1 /* 03-anagram */ = {
+			isa = PBXGroup;
+			children = (
+				3FB122C91D50042F004DD9E1 /* README.md */,
+				3F6EC9721D5006250051AA07 /* Anagram.swift */,
+				3F6EC9741D50064C0051AA07 /* AnagramTests.swift */,
+			);
+			name = "03-anagram";
+			path = "../../03-anagram";
+			sourceTree = "<group>";
+		};
+		3FB122CA1D50042F004DD9E1 /* 04-rna-transcription */ = {
+			isa = PBXGroup;
+			children = (
+				3FB122CB1D50042F004DD9E1 /* README.md */,
+				3F6EC9761D5006840051AA07 /* Nucleotide.swift */,
+				3F6EC9781D5006BE0051AA07 /* DNA.swift */,
+				3F6EC97A1D5006D70051AA07 /* RNA.swift */,
+				3F6EC97C1D5006F10051AA07 /* RNATranscription.swift */,
+				3F6EC97E1D5007220051AA07 /* RNATranscriptionTests.swift */,
+			);
+			name = "04-rna-transcription";
+			path = "../../04-rna-transcription";
+			sourceTree = "<group>";
+		};
+		3FB122CC1D50042F004DD9E1 /* 05-mars-age */ = {
+			isa = PBXGroup;
+			children = (
+				3FB122CD1D50042F004DD9E1 /* README.md */,
+				3F6EC9801D5007490051AA07 /* MarsYears.swift */,
+				3F6EC9821D50077E0051AA07 /* MarsYearsTests.swift */,
+			);
+			name = "05-mars-age";
+			path = "../../05-mars-age";
+			sourceTree = "<group>";
+		};
+		3FB122CE1D50042F004DD9E1 /* 06-space-age */ = {
+			isa = PBXGroup;
+			children = (
+				3FB122CF1D50042F004DD9E1 /* README.md */,
+				3F6EC9861D5007C90051AA07 /* Planet.swift */,
+				3F6EC9841D5007960051AA07 /* SpaceAge.swift */,
+				3F6EC9881D5008820051AA07 /* SpaceAgeTests.swift */,
+			);
+			name = "06-space-age";
+			path = "../../06-space-age";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +238,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6EC9891D5008820051AA07 /* SpaceAgeTests.swift in Sources */,
+				3F6EC96F1D5005C90051AA07 /* WordsCount.swift in Sources */,
+				3F6EC9711D5005FF0051AA07 /* WordsCountTests.swift in Sources */,
+				3F6EC97D1D5006F10051AA07 /* RNATranscription.swift in Sources */,
+				3F6EC9831D50077E0051AA07 /* MarsYearsTests.swift in Sources */,
+				3FB122D71D500455004DD9E1 /* LeapYearTests.swift in Sources */,
+				3F6EC9791D5006BE0051AA07 /* DNA.swift in Sources */,
+				3F6EC9751D50064C0051AA07 /* AnagramTests.swift in Sources */,
+				3FB122D51D50042F004DD9E1 /* README.md in Sources */,
+				3FB122D21D50042F004DD9E1 /* README.md in Sources */,
+				3F6EC9771D5006840051AA07 /* Nucleotide.swift in Sources */,
+				3FB122D11D50042F004DD9E1 /* README.md in Sources */,
+				3FB122D91D50047A004DD9E1 /* LeapYear.swift in Sources */,
+				3F6EC9811D5007490051AA07 /* MarsYears.swift in Sources */,
+				3F6EC97F1D5007220051AA07 /* RNATranscriptionTests.swift in Sources */,
+				3F6EC9731D5006250051AA07 /* Anagram.swift in Sources */,
+				3FB122D41D50042F004DD9E1 /* README.md in Sources */,
+				3FB122D31D50042F004DD9E1 /* README.md in Sources */,
+				3FB122D01D50042F004DD9E1 /* README.md in Sources */,
+				3F6EC9871D5007C90051AA07 /* Planet.swift in Sources */,
+				3F6EC9851D5007960051AA07 /* SpaceAge.swift in Sources */,
+				3F6EC97B1D5006D70051AA07 /* RNA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

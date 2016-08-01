@@ -14,9 +14,3 @@ margherita: 1
 pizza: 1
 when: 1
 ```
-
----
-
-```swift
-func wordsCount(_ input: String) -> [String: Int]
-```

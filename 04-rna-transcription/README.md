@@ -15,21 +15,3 @@ each nucleotide with its complement:
 * `C` -> `G`
 * `T` -> `A`
 * `A` -> `U`
-
----
-
-```swift
-enum Nucleotide {
-  case A
-  case C
-  case G
-  case T
-  case U
-}
-
-typealias DNA = [Nucleotide]
-
-typealias RNA = [Nucleotide]
-
-func rnaTranscription(dna: DNA) -> RNA
-```
