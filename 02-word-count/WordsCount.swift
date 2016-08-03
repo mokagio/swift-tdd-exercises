@@ -3,13 +3,14 @@ func wordsCount(input: String) -> [String: Int] {
         return [:]
     }
 
-    let cleanInput = input
-        .stringByReplacingOccurrencesOfString(".", withString: "")
-        .stringByReplacingOccurrencesOfString(",", withString: "")
-        .stringByReplacingOccurrencesOfString(";", withString: "")
-        .stringByReplacingOccurrencesOfString(":", withString: "")
-        .stringByReplacingOccurrencesOfString("!", withString: "")
-        .stringByReplacingOccurrencesOfString("?", withString: "")
+    let cleanInput = { _ -> String in
+        var temp = input
+        let punctuation = [".", ",", ";", ":", "!", "?"]
+        punctuation.forEach { p in
+            temp = temp.stringByReplacingOccurrencesOfString(p, withString: "")
+        }
+        return temp
+    }()
 
     let components = cleanInput.componentsSeparatedByString(" ")
     var counts = [String: Int]()
